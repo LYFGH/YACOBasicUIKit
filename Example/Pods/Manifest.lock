@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - YACOBasicUIKit (0.1.1):
+    - YACOBasicUIKit/UIApplication (= 0.1.1)
+    - YACOBasicUIKit/UIColor (= 0.1.1)
+    - YACOBasicUIKit/UIDevice (= 0.1.1)
+    - YACOBasicUIKit/UIFont (= 0.1.1)
+    - YACOBasicUIKit/UILabel (= 0.1.1)
+    - YACOBasicUIKit/UIView (= 0.1.1)
+  - YACOBasicUIKit/UIApplication (0.1.1)
+  - YACOBasicUIKit/UIColor (0.1.1)
+  - YACOBasicUIKit/UIDevice (0.1.1):
+    - AFNetworking
+  - YACOBasicUIKit/UIFont (0.1.1)
+  - YACOBasicUIKit/UILabel (0.1.1)
+  - YACOBasicUIKit/UIView (0.1.1)
+
+DEPENDENCIES:
+  - YACOBasicUIKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+
+EXTERNAL SOURCES:
+  YACOBasicUIKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  YACOBasicUIKit: 6186851269eddffc5236e2c139017d115e2d0dc4
+
+PODFILE CHECKSUM: 53c26b1ff5c2a0732a930ec60b12926e086c7242
+
+COCOAPODS: 1.6.1

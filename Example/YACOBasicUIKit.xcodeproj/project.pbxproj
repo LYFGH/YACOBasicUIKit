@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		23A6712E4504D264061D2D99 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicUIKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-YACOBasicUIKit_Example/Pods-YACOBasicUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		325318F59DF298A9E52623FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		325318F59DF298A9E52623FB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		507AFF7D4842956C8441DD06 /* Pods-YACOBasicUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicUIKit_Example.release.xcconfig"; path = "Target Support Files/Pods-YACOBasicUIKit_Example/Pods-YACOBasicUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5226BA39FB206DA23844A8E8 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicUIKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* YACOBasicUIKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YACOBasicUIKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +64,9 @@
 		797DD934F8F013C51DFF56BA /* Pods_YACOBasicUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		958F30BF57DB36C804EBBE09 /* Pods_YACOBasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C0897FD9A796C86E4C95514 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YACOBasicUIKit.podspec; path = ../YACOBasicUIKit.podspec; sourceTree = "<group>"; };
+		9C0897FD9A796C86E4C95514 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YACOBasicUIKit.podspec; path = ../YACOBasicUIKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AB3AC004662AC3F9787CA620 /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YACOBasicUIKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		AF2816CFCD797D82243B5DDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF2816CFCD797D82243B5DDA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				AB3AC004662AC3F9787CA620 /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */,
 				5226BA39FB206DA23844A8E8 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -326,12 +326,14 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YACOBasicUIKit_Example/Pods-YACOBasicUIKit_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/YACOBasicUIKit/YACOBasicUIKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YACOBasicUIKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
