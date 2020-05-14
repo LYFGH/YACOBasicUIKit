@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YACOBasicUIKit'
-  s.version          = '0.1.2'
+  s.version          = '0.1.4'
   s.summary          = 'YACOBasicUIKit.'
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
   
-  s.source_files = 'YACOBasicUIKit/Classes/YACOBasicUIKit.h'
   
   
   s.subspec 'UIApplication' do |uIApplication|

@@ -10,6 +10,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UIApplication (YACOApplication)
+
+///test
+
 // 获取当前活跃的UIViewController
 - (UIViewController *)yaco_currentActivityViewController;
 
