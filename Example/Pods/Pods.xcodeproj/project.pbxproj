@@ -16,6 +16,7 @@
 		1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */; };
 		2E118990881DC09ED3899EB669B8B34A /* UIView+YACOFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E27ABB21943D52667663DFAE1313A35 /* UIView+YACOFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		307F9090246D7DE300D8C87B /* YACOBasicUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */; };
 		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */; };
 		3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */; };
@@ -112,7 +113,7 @@
 		02EC04F11EB4A34FC39DFABC347061C9 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		0E3C8EC42577144305DEE07A48B0E9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0E3C8EC42577144305DEE07A48B0E9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
@@ -121,13 +122,14 @@
 		20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YACOBasicUIKit.h; path = YACOBasicUIKit/Classes/YACOBasicUIKit.h; sourceTree = "<group>"; };
 		33F02F49D31E1A407000DDFF142EFE86 /* Pods-YACOBasicUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicUIKit_Example.modulemap"; sourceTree = "<group>"; };
 		399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		3DA25FB7DE6C4022B42C7B18C706E6D7 /* Pods-YACOBasicUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
 		4086ED89F5963C9850B9B53522D8DDDD /* Pods-YACOBasicUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		40BAB9C5EF892573F971EDA6EA0FC143 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40BAB9C5EF892573F971EDA6EA0FC143 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YACOBasicUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		41EB96D5CC7FE5FB4D0A216E8DCE0272 /* Pods-YACOBasicUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		42E012B1FBA617891BA1D5D795FC7517 /* Pods-YACOBasicUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Example-Info.plist"; sourceTree = "<group>"; };
 		43065364F45E374EF97C191F51C7E6E5 /* YACOBasicUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-umbrella.h"; sourceTree = "<group>"; };
@@ -143,7 +145,7 @@
 		5F9ADF5537BD1F4616C5E2C52687FFA9 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		62A2465936700BD47698C463E540FEE2 /* YACOBasicUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicUIKit.modulemap; sourceTree = "<group>"; };
-		630DC21582D589FB4BDC06CF09095611 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630DC21582D589FB4BDC06CF09095611 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
 		6F771B48845CB0B35A5093D285402A09 /* Pods-YACOBasicUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		71DE3717F4A7F40FF57037CB573524AC /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -156,19 +158,19 @@
 		7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		82FDF394D813CE702BAB2CC1E3A3DAC0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		84A95C926D141C49394611694663196E /* YACOBasicUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-prefix.pch"; sourceTree = "<group>"; };
-		875C3E7A2D8E808E040A9AC6651AF9E9 /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicUIKit.framework; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		875C3E7A2D8E808E040A9AC6651AF9E9 /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
 		89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
 		8CD36A43E165993C00A1F4E6D8B9CA26 /* Pods-YACOBasicUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D2DB15FF172D2891C0D65DBED937586 /* Pods_YACOBasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicUIKit_Example.framework; path = "Pods-YACOBasicUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D2DB15FF172D2891C0D65DBED937586 /* Pods_YACOBasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99972FC44580B2C8B48D9DA7A8A3DC0B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
 		9B6560A60F55C4E1E2BB1139AC06CA44 /* UIApplication+YACOApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YACOApplication.h"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.h"; sourceTree = "<group>"; };
 		9CACB4B9F712056CE317CCDF90E16A04 /* UIDevice+YACODevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YACODevice.h"; path = "YACOBasicUIKit/Classes/UIDevice/UIDevice+YACODevice.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1C58F159BD352FFA63BE08A2F9D699D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A1C58F159BD352FFA63BE08A2F9D699D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A44C1E9C601EFBE9556C91550019677B /* Pods-YACOBasicUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A4EC067C0C0C6B632C30D04DD39F5703 /* UIApplication+YACOApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YACOApplication.m"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.m"; sourceTree = "<group>"; };
 		A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
@@ -194,7 +196,7 @@
 		F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
 		F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		F754E34A0C84BED8FFE56588AEADE44F /* YACOAutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOAutoScrollLabel.h; path = YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.h; sourceTree = "<group>"; };
-		FB9EDA6FB604661E712B226FA103CAED /* Pods_YACOBasicUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicUIKit_Tests.framework; path = "Pods-YACOBasicUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9EDA6FB604661E712B226FA103CAED /* Pods_YACOBasicUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FFD587854C511A2EAEB195EC50BEE6F4 /* UIFont+YACOFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+YACOFont.m"; path = "YACOBasicUIKit/Classes/UIFont/UIFont+YACOFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -373,6 +375,7 @@
 		7ED791FA756659BB990C51E3085FCFF2 /* YACOBasicUIKit */ = {
 			isa = PBXGroup;
 			children = (
+				307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */,
 				6CE01665EB7A7F0F744FCFC609209E62 /* Pod */,
 				8C746B3154E04BE0DDC8C0D2558B5AB4 /* Support Files */,
 				914841216F0A41246DAC0C15EF50137A /* UIApplication */,
@@ -411,7 +414,6 @@
 				758D3A0B9C8B83A952B0CA0717B9A068 /* Support Files */,
 				AA46B506BA633AF58C06347FAA379101 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -590,6 +592,7 @@
 				482A697C40B8E8AA4A8FF00072FA6139 /* UIDevice+YACODevice.h in Headers */,
 				BACCF398BE43FB55BE337AC22D00B941 /* UIFont+YACOFont.h in Headers */,
 				7A6493E4D716CBCB792C75EE057E11CC /* UILabel+YACOLabel.h in Headers */,
+				307F9090246D7DE300D8C87B /* YACOBasicUIKit.h in Headers */,
 				2E118990881DC09ED3899EB669B8B34A /* UIView+YACOFrame.h in Headers */,
 				61A55D0D38203DFD37105808CBAF4F91 /* YACOAutoScrollLabel.h in Headers */,
 				0C9275CE0965D37E0090E6BE86E89EB3 /* YACOBasicUIKit-umbrella.h in Headers */,
@@ -689,6 +692,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -873,8 +877,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
