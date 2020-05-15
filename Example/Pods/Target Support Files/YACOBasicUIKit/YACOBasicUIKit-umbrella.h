@@ -17,6 +17,7 @@
 #import "UILabel+YACOLabel.h"
 #import "YACOAutoScrollLabel.h"
 #import "UIView+YACOFrame.h"
+#import "YACOBasicUIKit.h"
 
 FOUNDATION_EXPORT double YACOBasicUIKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char YACOBasicUIKitVersionString[];

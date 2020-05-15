@@ -7,235 +7,236 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C9275CE0965D37E0090E6BE86E89EB3 /* YACOBasicUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43065364F45E374EF97C191F51C7E6E5 /* YACOBasicUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0DFE75C1EC83501BEC29E0A3281FC012 /* YACOAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF75E1C4A29592CAEFDF420ECF92542 /* YACOAutoScrollLabel.m */; };
-		0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */; };
-		19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */; };
-		2E118990881DC09ED3899EB669B8B34A /* UIView+YACOFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E27ABB21943D52667663DFAE1313A35 /* UIView+YACOFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		307F9090246D7DE300D8C87B /* YACOBasicUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */; };
-		33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */; };
-		3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */; };
-		459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */; };
-		482A697C40B8E8AA4A8FF00072FA6139 /* UIDevice+YACODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CACB4B9F712056CE317CCDF90E16A04 /* UIDevice+YACODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54FDDA264E9DA476710F073BA0B6A0D8 /* UIApplication+YACOApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B6560A60F55C4E1E2BB1139AC06CA44 /* UIApplication+YACOApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EA28F8042565A9FB3CFFAD1A20B7299 /* Pods-YACOBasicUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4086ED89F5963C9850B9B53522D8DDDD /* Pods-YACOBasicUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		61A55D0D38203DFD37105808CBAF4F91 /* YACOAutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F754E34A0C84BED8FFE56588AEADE44F /* YACOAutoScrollLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */; };
-		6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */; };
-		775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */; };
-		7A6493E4D716CBCB792C75EE057E11CC /* UILabel+YACOLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 00A094463741B9C09319FDC2BC5AFE28 /* UILabel+YACOLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8105DFF723256E7FF2B5A44ECF9AD361 /* UIColor+YACOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B18B5C294980B4220952C7B03E0DFC7 /* UIColor+YACOColor.m */; };
-		8164874A9AFEF2968A1E6510219E3EC5 /* UIColor+YACOColor.h in Headers */ = {isa = PBXBuildFile; fileRef = AB17CCC99CBB5A69EFB1F21535915935 /* UIColor+YACOColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */; };
-		87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */; };
-		891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */; };
-		8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */; };
-		A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
-		A22615288633E106894F98D21371A6F8 /* Pods-YACOBasicUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1BD7FC63509508D894CBD9316E1931C /* Pods-YACOBasicUIKit_Example-dummy.m */; };
-		A4E8E29CD74E785FE0B724499EBE3964 /* UILabel+YACOLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 510E24A00E7D2782EF3A5CEE022451F3 /* UILabel+YACOLabel.m */; };
-		A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */; };
-		A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */; };
-		B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B3C0A2F3DFDF7A990807E26C345857AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
-		B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BACCF398BE43FB55BE337AC22D00B941 /* UIFont+YACOFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E1B26B22A3160346889ABD869C44351 /* UIFont+YACOFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */; };
-		C3D09A80FAD47A1AF0F835401DEF5C9F /* UIFont+YACOFont.m in Sources */ = {isa = PBXBuildFile; fileRef = FFD587854C511A2EAEB195EC50BEE6F4 /* UIFont+YACOFont.m */; };
-		C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */; };
-		C67D4FA50629A74BAAAB1F500F035D4F /* YACOBasicUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02926D489657BE7A76CC566158BB20DB /* YACOBasicUIKit-dummy.m */; };
-		CD518C585B21A4098749C726062EBC19 /* Pods-YACOBasicUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD36A43E165993C00A1F4E6D8B9CA26 /* Pods-YACOBasicUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */; };
-		D1D00FD78E301988A17E4FDA77359E30 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
-		D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D3FAFFA263D1EA2CBC71FB4F0E30E1D5 /* UIView+YACOFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = EE4E5DC8FF11A0EE1F78E1441FF70F7E /* UIView+YACOFrame.m */; };
-		D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */; };
-		D81B3BC54516AA8E107E1EE11823E17C /* UIApplication+YACOApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = A4EC067C0C0C6B632C30D04DD39F5703 /* UIApplication+YACOApplication.m */; };
-		DE37DBBFAC0FD8C2AFEA612A95F0E5F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */; };
-		E10AB87087119790DB9F8A1A30546584 /* UIDevice+YACODevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 71F6D3DC113B9B5F9B505B06B1D22A7D /* UIDevice+YACODevice.m */; };
-		E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA9C0DD6526D8677821E7D9FFCE7ACDD /* Pods-YACOBasicUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46D1C1D8FCD2C2938CC446F2EB1A62D0 /* Pods-YACOBasicUIKit_Tests-dummy.m */; };
-		ED0F0A932B1BB7459F2E10E01B4A2274 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */; };
-		EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */; };
-		F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */; };
-		FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		011D5B1B79236938973CB4F220962033 /* UILabel+YACOLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1024C6153326F10D8390D84B6AF84B57 /* UILabel+YACOLabel.m */; };
+		0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */; };
+		09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8183D84E7E1FF32F88394E250E835526 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = DD797E9FB8FD88C20B9BBACA96FC0B16 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E2C2D579A0D84A2FE7E5D661ABFC0F /* AFImageDownloader.m */; };
+		169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B1F881424B0DDCF48E145DD111EB06A /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D3ED0FEE9A5B9D11998E835B25E06EF /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29499E6ECEC90CCF99D669C69AE65B9C /* MobileCoreServices.framework */; };
+		2413A0E22E9A39C9FF8B32CCF0CB1DC6 /* Pods-YACOBasicUIKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B698E03633A404730499170C8DFB032F /* Pods-YACOBasicUIKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A84D11DA01A6371CEEBB424B1D7AD78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */; };
+		2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CCDE556E4498A28CBF8D5959860FF376 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B54129404C6F402750AAC137D86678E /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7048D0CD3A3E00B49BB40E750067D85C /* ReplaceMe.m */; };
+		2BACB7ECC47C5174C5657CD68C64EB96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */; };
+		3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F91BED7A34BF0EDABF38A03461265C /* AFAutoPurgingImageCache.m */; };
+		34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E35634AAFEBD37757DA4F1121255C970 /* UIButton+AFNetworking.m */; };
+		3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E303CEC05132478C8D988B56F493D5 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCC085AE7F0764C82944FB38326C2C2 /* AFNetworking-dummy.m */; };
+		3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D6E0F31F4EC5AEF83995B7DCAE7D406 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A22826B17D7CD59D1A44BB2892F8CB /* CoreGraphics.framework */; };
+		4636E7EFB0B77C595EBF903E113682C0 /* UIView+YACOFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 251B53270E37C0625A97E97480967FDA /* UIView+YACOFrame.m */; };
+		47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = EE30AAB8B0561B7868A0C44EE5AC6249 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CA29EFA9455363E244F69DC484D0FF3 /* YACOAutoScrollLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = F8FBA92FED28944807E90C32660B4141 /* YACOAutoScrollLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		502DD91A104888ECB28A7AC94CCE43AD /* UIFont+YACOFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 7281B57C153E9CCFF87C165A374A4D35 /* UIFont+YACOFont.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC7F85A84A85F692FC13ACF2027A65D9 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50705DE92AA0B3E64D556EF9DEB05F2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */; };
+		5C288F60E02E29F250ABF7FD74E2D93A /* Pods-YACOBasicUIKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E78A8510C68C35009303A45B97A952F9 /* Pods-YACOBasicUIKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF4E8AD7B2EFD67EB126F22691A6188 /* AFNetworkActivityIndicatorManager.m */; };
+		6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = C86295921DBB0A27D0BCD76088666C0F /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8FE69D0C4D3E6B72EBEDBCEE6E76EE0 /* AFSecurityPolicy.m */; };
+		7755C4325476B9FFC97DB9C695666988 /* UIColor+YACOColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 81AC41E218D132FDCF4ECCAE3CB8E6CE /* UIColor+YACOColor.m */; };
+		77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 641D6677C93E86CB0CB1F7FA42D019C6 /* AFHTTPSessionManager.m */; };
+		7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D5C20FF8E4909A9876DC2FE445212270 /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F58B7F5FF946040BAF6112AF70A913D /* UILabel+YACOLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DEF72F6C00C908EB48DF9DEC1038B4C /* UILabel+YACOLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B3AF5D0718C200AF8F089A1A92B2BD /* Pods-YACOBasicUIKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8EBCBFF62BCA57AEFDD3A08DFF608F4 /* Pods-YACOBasicUIKit_Example-dummy.m */; };
+		856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 261FDB3EC1833204C698177283CE84F9 /* AFURLSessionManager.m */; };
+		870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = E18643CB68E6C55B9B02A10E16BEE9C0 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8E795B7AC5897CB58D8BC17EA6C32750 /* YACOBasicUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8308ADD22701AC0A37A075492F85AFE9 /* YACOBasicUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F06E3EBE5A719D35F88F07EE3BB939D /* UIColor+YACOColor.h in Headers */ = {isa = PBXBuildFile; fileRef = C07161903D4C9CE8A5DB621C8FF41C44 /* UIColor+YACOColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AD817DBE088E82E12FDF1721579B2377 /* UIActivityIndicatorView+AFNetworking.m */; };
+		95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 05564E5F8F8A98A917200D87229F683F /* AFNetworkReachabilityManager.m */; };
+		98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C04913035198C581CB7A3C5660D3B682 /* UIProgressView+AFNetworking.m */; };
+		9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FB7CFF298ACF2E1C54DB38364BCC2C5 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0B664F795890F48C4B1A2A47572E45F /* UIFont+YACOFont.m in Sources */ = {isa = PBXBuildFile; fileRef = C89B0E9A5C2CB018E160E2503A4D00A7 /* UIFont+YACOFont.m */; };
+		A56BB7407F4572C2BB1FD16BFDDB9F7B /* UIView+YACOFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 9995C580D0AB06DC350FA44A048033F9 /* UIView+YACOFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 871F478F2511C2983761EBCBC75F36D4 /* AFURLResponseSerialization.m */; };
+		A5D9759DC98F97B298B9DCDFD4F41EE0 /* UIDevice+YACODevice.h in Headers */ = {isa = PBXBuildFile; fileRef = F5E1FD960D6E0E07EA03CE875AED7474 /* UIDevice+YACODevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A973FFA45854EBEAA2C1A23984479DC /* Security.framework */; };
+		A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A431C887AE808F023F2F73FDC7BDC7 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 320EDDB98AEC5AFF04C5A7C7832418B7 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 88DE60BAFF5EF8B151049827B169FC23 /* UIImageView+AFNetworking.m */; };
+		B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4A3F3AB547646D424CC291035EBACA /* SystemConfiguration.framework */; };
+		B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = AA28B5EFC0DB2E9E964D8FE22B04E298 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAD7EB0EFC521C5B4B415FEE6800422B /* YACOBasicUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62BDB2D1EEC2BFCC7F61D23C746A5F98 /* YACOBasicUIKit-dummy.m */; };
+		C6F0BD0D416BD88D49ED892AF7CA1100 /* YACOBasicUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F9CAFFA6A3E06C51938EF3D5DE2F7A4 /* YACOBasicUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 863CE30B7E23614FC1FF14C454F3957F /* UIRefreshControl+AFNetworking.m */; };
+		D3F7724459759596D53D4265DDAD00D1 /* UIDevice+YACODevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A3D703E46ADFC5029F49A472130394DF /* UIDevice+YACODevice.m */; };
+		D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C495C5316C891FEEE18057F20265F17 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D685C5D93860827612D4E587BC481842 /* UIApplication+YACOApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = E2C88A4A36C0319942E2373FBCF71681 /* UIApplication+YACOApplication.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 921C0405F3FD216D15BED4D27CFE63FD /* UIWebView+AFNetworking.m */; };
+		DE8B9DD250C7C0D132BA20EFFC10B35C /* Pods-YACOBasicUIKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8176D5449C56BDD6ECD08FE270AFD25B /* Pods-YACOBasicUIKit_Tests-dummy.m */; };
+		E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E600C7F03E87B9FE45B6879B1C08245E /* AFURLRequestSerialization.m */; };
+		E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 6707C436894F72699AAAABC9D396DFC6 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E547DCB4CC039997A4D92078688BC93C /* UIApplication+YACOApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = D5134105C73825C52133F3AC0670A4BC /* UIApplication+YACOApplication.m */; };
+		E9D4BEFAC031DF8ADC763341D5618620 /* YACOAutoScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 894B48A0FB20FADA18585AE9FC97B17C /* YACOAutoScrollLabel.m */; };
+		F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C9E2F14214F8E5BE5C1ED8D03AA5DD8 /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 14934DE99643AD1D2CA51E5CBE7518DF /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0117978EC7CB127827DF82ED03BD135C /* PBXContainerItemProxy */ = {
+		218C984B0C2B51D9CADD35BCA78E0B58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = AB2E47984414F9DC4CC386C56D67CFEB;
+			remoteGlobalIDString = 6AB155158FE71ED0700F23E7706CDB2A;
 			remoteInfo = "Pods-YACOBasicUIKit_Example";
 		};
-		2EF1F314AEA2F3E2A03A76967DB6E7F4 /* PBXContainerItemProxy */ = {
+		66FE47E697EE92F24BC6AC0155DDA0F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
 			remoteInfo = AFNetworking;
 		};
-		864542AFB8D83BA4E32810E00FE588EB /* PBXContainerItemProxy */ = {
+		D9CF1523EDE1857567184904566DC5ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF160BF4E9F6EE312A9C8967B5A3C071;
-			remoteInfo = AFNetworking;
-		};
-		C918E287C59A6500BAA3914387C91EE7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DA8E7BAF7AF54884FD864FAC9EF41C71;
+			remoteGlobalIDString = E61932D00010CA6F845ADBD082791F34;
 			remoteInfo = YACOBasicUIKit;
+		};
+		E4EA95AE0339E8489837015CE36B78F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
-		00A094463741B9C09319FDC2BC5AFE28 /* UILabel+YACOLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+YACOLabel.h"; path = "YACOBasicUIKit/Classes/UILabel/UILabel+YACOLabel.h"; sourceTree = "<group>"; };
-		02926D489657BE7A76CC566158BB20DB /* YACOBasicUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicUIKit-dummy.m"; sourceTree = "<group>"; };
-		02EC04F11EB4A34FC39DFABC347061C9 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
-		0E3C8EC42577144305DEE07A48B0E9A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
-		170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.xcconfig; sourceTree = "<group>"; };
-		18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
-		26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YACOBasicUIKit.h; path = YACOBasicUIKit/Classes/YACOBasicUIKit.h; sourceTree = "<group>"; };
-		33F02F49D31E1A407000DDFF142EFE86 /* Pods-YACOBasicUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicUIKit_Example.modulemap"; sourceTree = "<group>"; };
-		399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
-		3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
-		3DA25FB7DE6C4022B42C7B18C706E6D7 /* Pods-YACOBasicUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
-		4086ED89F5963C9850B9B53522D8DDDD /* Pods-YACOBasicUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
-		40BAB9C5EF892573F971EDA6EA0FC143 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YACOBasicUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		41EB96D5CC7FE5FB4D0A216E8DCE0272 /* Pods-YACOBasicUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		42E012B1FBA617891BA1D5D795FC7517 /* Pods-YACOBasicUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Example-Info.plist"; sourceTree = "<group>"; };
-		43065364F45E374EF97C191F51C7E6E5 /* YACOBasicUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-umbrella.h"; sourceTree = "<group>"; };
-		46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
-		46D1C1D8FCD2C2938CC446F2EB1A62D0 /* Pods-YACOBasicUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		4E1B26B22A3160346889ABD869C44351 /* UIFont+YACOFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+YACOFont.h"; path = "YACOBasicUIKit/Classes/UIFont/UIFont+YACOFont.h"; sourceTree = "<group>"; };
-		510E24A00E7D2782EF3A5CEE022451F3 /* UILabel+YACOLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+YACOLabel.m"; path = "YACOBasicUIKit/Classes/UILabel/UILabel+YACOLabel.m"; sourceTree = "<group>"; };
-		5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		5B18B5C294980B4220952C7B03E0DFC7 /* UIColor+YACOColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+YACOColor.m"; path = "YACOBasicUIKit/Classes/UIColor/UIColor+YACOColor.m"; sourceTree = "<group>"; };
-		5CF75E1C4A29592CAEFDF420ECF92542 /* YACOAutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOAutoScrollLabel.m; path = YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.m; sourceTree = "<group>"; };
-		5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		5F9ADF5537BD1F4616C5E2C52687FFA9 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
-		62A2465936700BD47698C463E540FEE2 /* YACOBasicUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicUIKit.modulemap; sourceTree = "<group>"; };
-		630DC21582D589FB4BDC06CF09095611 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		6F771B48845CB0B35A5093D285402A09 /* Pods-YACOBasicUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		71DE3717F4A7F40FF57037CB573524AC /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		71F6D3DC113B9B5F9B505B06B1D22A7D /* UIDevice+YACODevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+YACODevice.m"; path = "YACOBasicUIKit/Classes/UIDevice/UIDevice+YACODevice.m"; sourceTree = "<group>"; };
-		79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		7ACEE9E6C33EA225D556BDAFB51DF0FB /* Pods-YACOBasicUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
-		7E27ABB21943D52667663DFAE1313A35 /* UIView+YACOFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+YACOFrame.h"; path = "YACOBasicUIKit/Classes/UIView/UIView+YACOFrame.h"; sourceTree = "<group>"; };
-		7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
-		82FDF394D813CE702BAB2CC1E3A3DAC0 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
-		84A95C926D141C49394611694663196E /* YACOBasicUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-prefix.pch"; sourceTree = "<group>"; };
-		875C3E7A2D8E808E040A9AC6651AF9E9 /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
-		8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
-		8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
-		8CD36A43E165993C00A1F4E6D8B9CA26 /* Pods-YACOBasicUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8D2DB15FF172D2891C0D65DBED937586 /* Pods_YACOBasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99972FC44580B2C8B48D9DA7A8A3DC0B /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
-		9B6560A60F55C4E1E2BB1139AC06CA44 /* UIApplication+YACOApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+YACOApplication.h"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.h"; sourceTree = "<group>"; };
-		9CACB4B9F712056CE317CCDF90E16A04 /* UIDevice+YACODevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+YACODevice.h"; path = "YACOBasicUIKit/Classes/UIDevice/UIDevice+YACODevice.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A1C58F159BD352FFA63BE08A2F9D699D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		A44C1E9C601EFBE9556C91550019677B /* Pods-YACOBasicUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		A4EC067C0C0C6B632C30D04DD39F5703 /* UIApplication+YACOApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+YACOApplication.m"; path = "YACOBasicUIKit/Classes/UIApplication/UIApplication+YACOApplication.m"; sourceTree = "<group>"; };
-		A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		AB17CCC99CBB5A69EFB1F21535915935 /* UIColor+YACOColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+YACOColor.h"; path = "YACOBasicUIKit/Classes/UIColor/UIColor+YACOColor.h"; sourceTree = "<group>"; };
-		AD3F7842D6542478894B1B856D932885 /* YACOBasicUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicUIKit-Info.plist"; sourceTree = "<group>"; };
-		B19CF888E2CE9989D78BE9681DF77906 /* Pods-YACOBasicUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B1BD7FC63509508D894CBD9316E1931C /* Pods-YACOBasicUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicUIKit_Example-dummy.m"; sourceTree = "<group>"; };
-		B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
-		B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
-		B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		CD3E4D6C619719BC2BCFEE88356C9BD5 /* Pods-YACOBasicUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicUIKit_Tests.modulemap"; sourceTree = "<group>"; };
-		CD8A2A381EC8DE5E27A2682E27BA532D /* Pods-YACOBasicUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
-		D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		D195C94F13A4B6C342749ECE7B95F9CE /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
-		DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		E3C9EC210EB365D3365888DA5B06C09F /* YACOBasicUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicUIKit.xcconfig; sourceTree = "<group>"; };
-		EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		EE4E5DC8FF11A0EE1F78E1441FF70F7E /* UIView+YACOFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+YACOFrame.m"; path = "YACOBasicUIKit/Classes/UIView/UIView+YACOFrame.m"; sourceTree = "<group>"; };
-		F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		F754E34A0C84BED8FFE56588AEADE44F /* YACOAutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOAutoScrollLabel.h; path = YACOBasicUIKit/Classes/UILabel/YACOAutoScrollLabel.h; sourceTree = "<group>"; };
-		FB9EDA6FB604661E712B226FA103CAED /* Pods_YACOBasicUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicUIKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FFD587854C511A2EAEB195EC50BEE6F4 /* UIFont+YACOFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+YACOFont.m"; path = "YACOBasicUIKit/Classes/UIFont/UIFont+YACOFont.m"; sourceTree = "<group>"; };
+		02E303CEC05132478C8D988B56F493D5 /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		03B0274AE1BE0334FCD17EAD232118C1 /* YACOBasicUIKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicUIKit.release.xcconfig; sourceTree = "<group>"; };
+		05564E5F8F8A98A917200D87229F683F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		088F89D18599AB751B6A3C606F7BB7AA /* Pods-YACOBasicUIKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicUIKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0C495C5316C891FEEE18057F20265F17 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		0CCC085AE7F0764C82944FB38326C2C2 /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		1024C6153326F10D8390D84B6AF84B57 /* UILabel+YACOLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UILabel+YACOLabel.m"; sourceTree = "<group>"; };
+		14934DE99643AD1D2CA51E5CBE7518DF /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		1A221C7A88782EB173FD4B9039528AB7 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		1B1F881424B0DDCF48E145DD111EB06A /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		251B53270E37C0625A97E97480967FDA /* UIView+YACOFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+YACOFrame.m"; sourceTree = "<group>"; };
+		261FDB3EC1833204C698177283CE84F9 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		29499E6ECEC90CCF99D669C69AE65B9C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		2DEF72F6C00C908EB48DF9DEC1038B4C /* UILabel+YACOLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UILabel+YACOLabel.h"; sourceTree = "<group>"; };
+		2FC918F80D5277FA688A0C33B4167252 /* YACOBasicUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicUIKit.modulemap; sourceTree = "<group>"; };
+		320EDDB98AEC5AFF04C5A7C7832418B7 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		44B68EE781FD54D7009B65CBB82A3EB6 /* Pods-YACOBasicUIKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicUIKit_Tests.modulemap"; sourceTree = "<group>"; };
+		49FD3143275327AE60D8636D3475AEEF /* AFNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AFNetworking-Info.plist"; sourceTree = "<group>"; };
+		4D6E0F31F4EC5AEF83995B7DCAE7D406 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		51A6040D147093D6F0813B41756E81A1 /* Pods-YACOBasicUIKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		53A22826B17D7CD59D1A44BB2892F8CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		571531E6704E233D0F0E1DCA19FC20E3 /* AFNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFNetworking.modulemap; sourceTree = "<group>"; };
+		5F9CAFFA6A3E06C51938EF3D5DE2F7A4 /* YACOBasicUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOBasicUIKit.h; path = YACOBasicUIKit/Classes/YACOBasicUIKit.h; sourceTree = "<group>"; };
+		5FB7CFF298ACF2E1C54DB38364BCC2C5 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		5FEC5D129FE0D009B9FF35B3EFD7AA5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		62BDB2D1EEC2BFCC7F61D23C746A5F98 /* YACOBasicUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicUIKit-dummy.m"; sourceTree = "<group>"; };
+		641D6677C93E86CB0CB1F7FA42D019C6 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		6707C436894F72699AAAABC9D396DFC6 /* AFImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFImageDownloader.h; path = "UIKit+AFNetworking/AFImageDownloader.h"; sourceTree = "<group>"; };
+		69F5F9829DFAB1493C70FFC28E792C6F /* YACOBasicUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicUIKit.framework; path = YACOBasicUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BA0E235ECAD5F5C2CED95AFB36C6216 /* YACOBasicUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-prefix.pch"; sourceTree = "<group>"; };
+		7048D0CD3A3E00B49BB40E750067D85C /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YACOBasicUIKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		7281B57C153E9CCFF87C165A374A4D35 /* UIFont+YACOFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIFont+YACOFont.h"; sourceTree = "<group>"; };
+		757768751838D98176C6CC463A837690 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		76421835FFBDD7305FED9097FD03588E /* YACOBasicUIKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicUIKit.debug.xcconfig; sourceTree = "<group>"; };
+		7C9E2F14214F8E5BE5C1ED8D03AA5DD8 /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
+		7E59D3CB0DAC1C8B513F1BAA95A1E478 /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8167E19A5089B2DD590C6DF8507CBBE2 /* Pods-YACOBasicUIKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		8176D5449C56BDD6ECD08FE270AFD25B /* Pods-YACOBasicUIKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicUIKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		8183D84E7E1FF32F88394E250E835526 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		81AC41E218D132FDCF4ECCAE3CB8E6CE /* UIColor+YACOColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIColor+YACOColor.m"; sourceTree = "<group>"; };
+		8308ADD22701AC0A37A075492F85AFE9 /* YACOBasicUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicUIKit-umbrella.h"; sourceTree = "<group>"; };
+		837A2E1ABD844EC0225556FDFBC2CC34 /* Pods-YACOBasicUIKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicUIKit_Example.modulemap"; sourceTree = "<group>"; };
+		863CE30B7E23614FC1FF14C454F3957F /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		871F478F2511C2983761EBCBC75F36D4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		88DE60BAFF5EF8B151049827B169FC23 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		894B48A0FB20FADA18585AE9FC97B17C /* YACOAutoScrollLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YACOAutoScrollLabel.m; sourceTree = "<group>"; };
+		8D3ED0FEE9A5B9D11998E835B25E06EF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		921C0405F3FD216D15BED4D27CFE63FD /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		97F91BED7A34BF0EDABF38A03461265C /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
+		9995C580D0AB06DC350FA44A048033F9 /* UIView+YACOFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+YACOFrame.h"; sourceTree = "<group>"; };
+		9A973FFA45854EBEAA2C1A23984479DC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9C1860AFD5336FB5F51C3404B2AAFA2D /* Pods_YACOBasicUIKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicUIKit_Example.framework; path = "Pods-YACOBasicUIKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF4E8AD7B2EFD67EB126F22691A6188 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		9E004AE69A38EC42587C2702EE067F7C /* Pods-YACOBasicUIKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3D703E46ADFC5029F49A472130394DF /* UIDevice+YACODevice.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+YACODevice.m"; sourceTree = "<group>"; };
+		A4AB7379F886E3FE214EF82CDA7DED58 /* Pods-YACOBasicUIKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicUIKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA28B5EFC0DB2E9E964D8FE22B04E298 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		AACF200048B6ADD1782B4F352339D99C /* Pods-YACOBasicUIKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicUIKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AD817DBE088E82E12FDF1721579B2377 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		B698E03633A404730499170C8DFB032F /* Pods-YACOBasicUIKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		BC7F85A84A85F692FC13ACF2027A65D9 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
+		BE2DAEB864DC1F9A9EB584023D3CEDA7 /* YACOBasicUIKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicUIKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C04913035198C581CB7A3C5660D3B682 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		C07161903D4C9CE8A5DB621C8FF41C44 /* UIColor+YACOColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIColor+YACOColor.h"; sourceTree = "<group>"; };
+		C0A431C887AE808F023F2F73FDC7BDC7 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C22A5E21FAD98F90EB240ADCCCC7AC7D /* Pods-YACOBasicUIKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Example-Info.plist"; sourceTree = "<group>"; };
+		C6E51BEC15682041779495D526221376 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		C8238151E3F0FB5883C4334C9869BF23 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
+		C86295921DBB0A27D0BCD76088666C0F /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		C89B0E9A5C2CB018E160E2503A4D00A7 /* UIFont+YACOFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YACOFont.m"; sourceTree = "<group>"; };
+		C8EBCBFF62BCA57AEFDD3A08DFF608F4 /* Pods-YACOBasicUIKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicUIKit_Example-dummy.m"; sourceTree = "<group>"; };
+		CCDE556E4498A28CBF8D5959860FF376 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		CFABE3644618C790E9AD68CB22E52C91 /* Pods-YACOBasicUIKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicUIKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5134105C73825C52133F3AC0670A4BC /* UIApplication+YACOApplication.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+YACOApplication.m"; sourceTree = "<group>"; };
+		D5C20FF8E4909A9876DC2FE445212270 /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		D8E2C2D579A0D84A2FE7E5D661ABFC0F /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
+		D8FE69D0C4D3E6B72EBEDBCEE6E76EE0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		DAE4C2797AE740780EC78F51F15AC7C1 /* Pods-YACOBasicUIKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicUIKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DD797E9FB8FD88C20B9BBACA96FC0B16 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		E18643CB68E6C55B9B02A10E16BEE9C0 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
+		E2C88A4A36C0319942E2373FBCF71681 /* UIApplication+YACOApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+YACOApplication.h"; sourceTree = "<group>"; };
+		E35634AAFEBD37757DA4F1121255C970 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		E600C7F03E87B9FE45B6879B1C08245E /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		E78A8510C68C35009303A45B97A952F9 /* Pods-YACOBasicUIKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicUIKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		ECB2E5B4105AC3D3D525EC95BDDAD78B /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		ECD92EB57F07333754E1644094E476C0 /* Pods_YACOBasicUIKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicUIKit_Tests.framework; path = "Pods-YACOBasicUIKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE30AAB8B0561B7868A0C44EE5AC6249 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		EE4A3F3AB547646D424CC291035EBACA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		F5E1FD960D6E0E07EA03CE875AED7474 /* UIDevice+YACODevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIDevice+YACODevice.h"; sourceTree = "<group>"; };
+		F67257C7050EF64B0B3327692334B785 /* YACOBasicUIKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicUIKit-Info.plist"; sourceTree = "<group>"; };
+		F8FBA92FED28944807E90C32660B4141 /* YACOAutoScrollLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YACOAutoScrollLabel.h; sourceTree = "<group>"; };
+		FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		07D46A06CF71C5224E5096B4EC7ACE0D /* Frameworks */ = {
+		3FA4DF9FC9F62C99E9EF82756D978B25 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D00FD78E301988A17E4FDA77359E30 /* Foundation.framework in Frameworks */,
+				2BACB7ECC47C5174C5657CD68C64EB96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		231A9882773A21FF96B69F646E71AD35 /* Frameworks */ = {
+		4D2F1CB1DE0CB2EB8844545534E947D8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3C0A2F3DFDF7A990807E26C345857AB /* Foundation.framework in Frameworks */,
+				2A84D11DA01A6371CEEBB424B1D7AD78 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BC73BF2E65DA3B1EE378986D1AF647F /* Frameworks */ = {
+		99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED0F0A932B1BB7459F2E10E01B4A2274 /* AFNetworking.framework in Frameworks */,
-				DE37DBBFAC0FD8C2AFEA612A95F0E5F7 /* Foundation.framework in Frameworks */,
+				45AD6149EEB2883EAC09063B5FDD6F5B /* CoreGraphics.framework in Frameworks */,
+				0254EABA2D0AACFBFA5E2BAD753C5E2D /* Foundation.framework in Frameworks */,
+				1AC36159DEDD4452C304D5B1FFB688D1 /* MobileCoreServices.framework in Frameworks */,
+				A93BD560DD062BA5B515267570761CBE /* Security.framework in Frameworks */,
+				B26EDD2D9A9BC8CDDEADEA8DBEC606A7 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */ = {
+		C45B4C67730F41611C3AF367234AEC9B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D88D10AAAE2C8AC7222D698E55D5E8F /* CoreGraphics.framework in Frameworks */,
-				A1C3DF8AED05A9B905AE114BF1CC7EBB /* Foundation.framework in Frameworks */,
-				C10DA5E233803AECE910CCF8E9839FB5 /* MobileCoreServices.framework in Frameworks */,
-				A56A9025CDC6ACF1A9F3F95BA288ADEE /* Security.framework in Frameworks */,
-				0EBF8C6B80B02F3959D2B863147FD4FB /* SystemConfiguration.framework in Frameworks */,
+				50705DE92AA0B3E64D556EF9DEB05F2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,410 +246,380 @@
 		044CED9B1C09083326DFEEE0C3275A25 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				665D2125D0D4861EE714E8BB5EB693E0 /* Pods-YACOBasicUIKit_Example */,
-				CE4D82B3FB1CC7FB4A66427142D14CAF /* Pods-YACOBasicUIKit_Tests */,
+				2DF2BE58CC5D8AF41FE980150B2BA419 /* Pods-YACOBasicUIKit_Example */,
+				0E7E45B6CB2E0F00DDFDFE6FFB1775B0 /* Pods-YACOBasicUIKit_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		0A9C2CE5AE470CA835FBACF5DFAFCBF2 /* UIView */ = {
+		0E7E45B6CB2E0F00DDFDFE6FFB1775B0 /* Pods-YACOBasicUIKit_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				7E27ABB21943D52667663DFAE1313A35 /* UIView+YACOFrame.h */,
-				EE4E5DC8FF11A0EE1F78E1441FF70F7E /* UIView+YACOFrame.m */,
+				44B68EE781FD54D7009B65CBB82A3EB6 /* Pods-YACOBasicUIKit_Tests.modulemap */,
+				AACF200048B6ADD1782B4F352339D99C /* Pods-YACOBasicUIKit_Tests-acknowledgements.markdown */,
+				CFABE3644618C790E9AD68CB22E52C91 /* Pods-YACOBasicUIKit_Tests-acknowledgements.plist */,
+				8176D5449C56BDD6ECD08FE270AFD25B /* Pods-YACOBasicUIKit_Tests-dummy.m */,
+				8167E19A5089B2DD590C6DF8507CBBE2 /* Pods-YACOBasicUIKit_Tests-Info.plist */,
+				E78A8510C68C35009303A45B97A952F9 /* Pods-YACOBasicUIKit_Tests-umbrella.h */,
+				7E59D3CB0DAC1C8B513F1BAA95A1E478 /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */,
+				9E004AE69A38EC42587C2702EE067F7C /* Pods-YACOBasicUIKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-YACOBasicUIKit_Tests";
+			path = "Target Support Files/Pods-YACOBasicUIKit_Tests";
+			sourceTree = "<group>";
+		};
+		168E7D3658A9CE5C73CCA13838005CB8 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				F5E1FD960D6E0E07EA03CE875AED7474 /* UIDevice+YACODevice.h */,
+				A3D703E46ADFC5029F49A472130394DF /* UIDevice+YACODevice.m */,
+			);
+			name = UIDevice;
+			path = YACOBasicUIKit/Classes/UIDevice;
+			sourceTree = "<group>";
+		};
+		1DD74B736E0D21AD82D37459BA6B8110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */,
+				9C1860AFD5336FB5F51C3404B2AAFA2D /* Pods_YACOBasicUIKit_Example.framework */,
+				ECD92EB57F07333754E1644094E476C0 /* Pods_YACOBasicUIKit_Tests.framework */,
+				69F5F9829DFAB1493C70FFC28E792C6F /* YACOBasicUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F028AC76EC74E1B922E3F2AD829D4E /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				9995C580D0AB06DC350FA44A048033F9 /* UIView+YACOFrame.h */,
+				251B53270E37C0625A97E97480967FDA /* UIView+YACOFrame.m */,
 			);
 			name = UIView;
+			path = YACOBasicUIKit/Classes/UIView;
 			sourceTree = "<group>";
 		};
-		15A3C493082CE158919150FCE4EC47EF /* UIFont */ = {
+		2DF2BE58CC5D8AF41FE980150B2BA419 /* Pods-YACOBasicUIKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				4E1B26B22A3160346889ABD869C44351 /* UIFont+YACOFont.h */,
-				FFD587854C511A2EAEB195EC50BEE6F4 /* UIFont+YACOFont.m */,
-			);
-			name = UIFont;
-			sourceTree = "<group>";
-		};
-		41AA6DD29CE4B7A87ED35630D132DEE7 /* Security */ = {
-			isa = PBXGroup;
-			children = (
-				8A18BE14DF2681C57D71B983AB8E9968 /* AFSecurityPolicy.h */,
-				20316E6CE344404C62DBCEFFFA1E5833 /* AFSecurityPolicy.m */,
-			);
-			name = Security;
-			sourceTree = "<group>";
-		};
-		4C38082DADD8203A4D290044D37BE4C0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				26F7C757A7B333B441A54F6F5CAF2985 /* AFNetworking.framework */,
-				7654EC3BB69252FF85E1F432DC788B04 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		51F985147C269360498F4D666C3586F1 /* NSURLSession */ = {
-			isa = PBXGroup;
-			children = (
-				B419E0EE449BE13B1805D2AEA6F3E2D4 /* AFCompatibilityMacros.h */,
-				DC9748C6B6CF601FAD2D83D2FBC3C2AA /* AFHTTPSessionManager.h */,
-				A92CCC319FAC593C8D2C465BF34B2A9E /* AFHTTPSessionManager.m */,
-				B79EE2394EF977D4D976CDBB499F1E36 /* AFURLSessionManager.h */,
-				B949B5E9BCA670F4D4B88D4B0193DDD2 /* AFURLSessionManager.m */,
-			);
-			name = NSURLSession;
-			sourceTree = "<group>";
-		};
-		5C504DD4EF070945FBF71FD58A91634A /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				00A094463741B9C09319FDC2BC5AFE28 /* UILabel+YACOLabel.h */,
-				510E24A00E7D2782EF3A5CEE022451F3 /* UILabel+YACOLabel.m */,
-				F754E34A0C84BED8FFE56588AEADE44F /* YACOAutoScrollLabel.h */,
-				5CF75E1C4A29592CAEFDF420ECF92542 /* YACOAutoScrollLabel.m */,
-			);
-			name = UILabel;
-			sourceTree = "<group>";
-		};
-		665D2125D0D4861EE714E8BB5EB693E0 /* Pods-YACOBasicUIKit_Example */ = {
-			isa = PBXGroup;
-			children = (
-				33F02F49D31E1A407000DDFF142EFE86 /* Pods-YACOBasicUIKit_Example.modulemap */,
-				41EB96D5CC7FE5FB4D0A216E8DCE0272 /* Pods-YACOBasicUIKit_Example-acknowledgements.markdown */,
-				7ACEE9E6C33EA225D556BDAFB51DF0FB /* Pods-YACOBasicUIKit_Example-acknowledgements.plist */,
-				B1BD7FC63509508D894CBD9316E1931C /* Pods-YACOBasicUIKit_Example-dummy.m */,
-				6F771B48845CB0B35A5093D285402A09 /* Pods-YACOBasicUIKit_Example-frameworks.sh */,
-				42E012B1FBA617891BA1D5D795FC7517 /* Pods-YACOBasicUIKit_Example-Info.plist */,
-				8CD36A43E165993C00A1F4E6D8B9CA26 /* Pods-YACOBasicUIKit_Example-umbrella.h */,
-				02EC04F11EB4A34FC39DFABC347061C9 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */,
-				CD8A2A381EC8DE5E27A2682E27BA532D /* Pods-YACOBasicUIKit_Example.release.xcconfig */,
+				837A2E1ABD844EC0225556FDFBC2CC34 /* Pods-YACOBasicUIKit_Example.modulemap */,
+				A4AB7379F886E3FE214EF82CDA7DED58 /* Pods-YACOBasicUIKit_Example-acknowledgements.markdown */,
+				51A6040D147093D6F0813B41756E81A1 /* Pods-YACOBasicUIKit_Example-acknowledgements.plist */,
+				C8EBCBFF62BCA57AEFDD3A08DFF608F4 /* Pods-YACOBasicUIKit_Example-dummy.m */,
+				088F89D18599AB751B6A3C606F7BB7AA /* Pods-YACOBasicUIKit_Example-frameworks.sh */,
+				C22A5E21FAD98F90EB240ADCCCC7AC7D /* Pods-YACOBasicUIKit_Example-Info.plist */,
+				B698E03633A404730499170C8DFB032F /* Pods-YACOBasicUIKit_Example-umbrella.h */,
+				1A221C7A88782EB173FD4B9039528AB7 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */,
+				DAE4C2797AE740780EC78F51F15AC7C1 /* Pods-YACOBasicUIKit_Example.release.xcconfig */,
 			);
 			name = "Pods-YACOBasicUIKit_Example";
 			path = "Target Support Files/Pods-YACOBasicUIKit_Example";
 			sourceTree = "<group>";
 		};
-		6B67C1C532D80DBF4D5966599EEE5BD1 /* Reachability */ = {
+		32821C7410F4C702BF31D8301080F795 /* UIApplication */ = {
 			isa = PBXGroup;
 			children = (
-				5A8FA6658732BEA1D9E3D3F30406B5A1 /* AFNetworkReachabilityManager.h */,
-				880F50998A0758C563E6D504CD6E517B /* AFNetworkReachabilityManager.m */,
+				E2C88A4A36C0319942E2373FBCF71681 /* UIApplication+YACOApplication.h */,
+				D5134105C73825C52133F3AC0670A4BC /* UIApplication+YACOApplication.m */,
 			);
-			name = Reachability;
+			name = UIApplication;
+			path = YACOBasicUIKit/Classes/UIApplication;
 			sourceTree = "<group>";
 		};
-		6CE01665EB7A7F0F744FCFC609209E62 /* Pod */ = {
+		38E701F252488D714A137AD77A33436C /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				A1C58F159BD352FFA63BE08A2F9D699D /* LICENSE */,
-				0E3C8EC42577144305DEE07A48B0E9A1 /* README.md */,
-				40BAB9C5EF892573F971EDA6EA0FC143 /* YACOBasicUIKit.podspec */,
+				E18643CB68E6C55B9B02A10E16BEE9C0 /* AFAutoPurgingImageCache.h */,
+				97F91BED7A34BF0EDABF38A03461265C /* AFAutoPurgingImageCache.m */,
+				6707C436894F72699AAAABC9D396DFC6 /* AFImageDownloader.h */,
+				D8E2C2D579A0D84A2FE7E5D661ABFC0F /* AFImageDownloader.m */,
+				CCDE556E4498A28CBF8D5959860FF376 /* AFNetworkActivityIndicatorManager.h */,
+				9DF4E8AD7B2EFD67EB126F22691A6188 /* AFNetworkActivityIndicatorManager.m */,
+				AA28B5EFC0DB2E9E964D8FE22B04E298 /* UIActivityIndicatorView+AFNetworking.h */,
+				AD817DBE088E82E12FDF1721579B2377 /* UIActivityIndicatorView+AFNetworking.m */,
+				320EDDB98AEC5AFF04C5A7C7832418B7 /* UIButton+AFNetworking.h */,
+				E35634AAFEBD37757DA4F1121255C970 /* UIButton+AFNetworking.m */,
+				8183D84E7E1FF32F88394E250E835526 /* UIImage+AFNetworking.h */,
+				C86295921DBB0A27D0BCD76088666C0F /* UIImageView+AFNetworking.h */,
+				88DE60BAFF5EF8B151049827B169FC23 /* UIImageView+AFNetworking.m */,
+				5FB7CFF298ACF2E1C54DB38364BCC2C5 /* UIKit+AFNetworking.h */,
+				02E303CEC05132478C8D988B56F493D5 /* UIProgressView+AFNetworking.h */,
+				C04913035198C581CB7A3C5660D3B682 /* UIProgressView+AFNetworking.m */,
+				DD797E9FB8FD88C20B9BBACA96FC0B16 /* UIRefreshControl+AFNetworking.h */,
+				863CE30B7E23614FC1FF14C454F3957F /* UIRefreshControl+AFNetworking.m */,
+				14934DE99643AD1D2CA51E5CBE7518DF /* UIWebView+AFNetworking.h */,
+				921C0405F3FD216D15BED4D27CFE63FD /* UIWebView+AFNetworking.m */,
 			);
-			name = Pod;
+			name = UIKit;
 			sourceTree = "<group>";
 		};
-		758D3A0B9C8B83A952B0CA0717B9A068 /* Support Files */ = {
+		3F169D3C79D049AADC1832A7422DFFEE /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				99972FC44580B2C8B48D9DA7A8A3DC0B /* AFNetworking.modulemap */,
-				170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */,
-				690E5F504CD85C5DE34D3B449B27958B /* AFNetworking-dummy.m */,
-				D195C94F13A4B6C342749ECE7B95F9CE /* AFNetworking-Info.plist */,
-				82FDF394D813CE702BAB2CC1E3A3DAC0 /* AFNetworking-prefix.pch */,
-				610C73F7F888F3A873BC5141706E89E8 /* AFNetworking-umbrella.h */,
+				53A22826B17D7CD59D1A44BB2892F8CB /* CoreGraphics.framework */,
+				FBC11125AF1A26E2AE59CE6D2450418D /* Foundation.framework */,
+				29499E6ECEC90CCF99D669C69AE65B9C /* MobileCoreServices.framework */,
+				9A973FFA45854EBEAA2C1A23984479DC /* Security.framework */,
+				EE4A3F3AB547646D424CC291035EBACA /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E7F5B7AF33675869C9653472B0198B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				571531E6704E233D0F0E1DCA19FC20E3 /* AFNetworking.modulemap */,
+				0CCC085AE7F0764C82944FB38326C2C2 /* AFNetworking-dummy.m */,
+				49FD3143275327AE60D8636D3475AEEF /* AFNetworking-Info.plist */,
+				ECB2E5B4105AC3D3D525EC95BDDAD78B /* AFNetworking-prefix.pch */,
+				BC7F85A84A85F692FC13ACF2027A65D9 /* AFNetworking-umbrella.h */,
+				C6E51BEC15682041779495D526221376 /* AFNetworking.debug.xcconfig */,
+				C8238151E3F0FB5883C4334C9869BF23 /* AFNetworking.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/AFNetworking";
 			sourceTree = "<group>";
 		};
-		7654EC3BB69252FF85E1F432DC788B04 /* iOS */ = {
+		75A6907AF3475E8B87F3FF6D9A14C41A /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				AA98173D51A44A0B7665172C1F5E8EDF /* CoreGraphics.framework */,
-				FE5BDCC90B2226B1395D3BAF4FE187F9 /* Foundation.framework */,
-				7A9D56E95262943326DB4772EC8677EC /* MobileCoreServices.framework */,
-				0A01F3E12F6C5EE71FEC7011CC1C1C49 /* Security.framework */,
-				89BDF6F9B5BC40DF82488FDE1C1699E7 /* SystemConfiguration.framework */,
+				C0A431C887AE808F023F2F73FDC7BDC7 /* AFNetworkReachabilityManager.h */,
+				05564E5F8F8A98A917200D87229F683F /* AFNetworkReachabilityManager.m */,
 			);
-			name = iOS;
+			name = Reachability;
 			sourceTree = "<group>";
 		};
-		7ED791FA756659BB990C51E3085FCFF2 /* YACOBasicUIKit */ = {
+		75ABCD4A8A29FBE8F266DC5000A5EC1B /* Serialization */ = {
 			isa = PBXGroup;
 			children = (
-				307F908F246D7DE300D8C87B /* YACOBasicUIKit.h */,
-				6CE01665EB7A7F0F744FCFC609209E62 /* Pod */,
-				8C746B3154E04BE0DDC8C0D2558B5AB4 /* Support Files */,
-				914841216F0A41246DAC0C15EF50137A /* UIApplication */,
-				DE491CA546E8BD3121D103EA6CDF1BE5 /* UIColor */,
-				D54CCEC5444E14A3525F997A3A8BAF03 /* UIDevice */,
-				15A3C493082CE158919150FCE4EC47EF /* UIFont */,
-				5C504DD4EF070945FBF71FD58A91634A /* UILabel */,
-				0A9C2CE5AE470CA835FBACF5DFAFCBF2 /* UIView */,
+				8D3ED0FEE9A5B9D11998E835B25E06EF /* AFURLRequestSerialization.h */,
+				E600C7F03E87B9FE45B6879B1C08245E /* AFURLRequestSerialization.m */,
+				EE30AAB8B0561B7868A0C44EE5AC6249 /* AFURLResponseSerialization.h */,
+				871F478F2511C2983761EBCBC75F36D4 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		7809CF3EF0DC7E311E08DB1E778A483D /* YACOBasicUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				7048D0CD3A3E00B49BB40E750067D85C /* ReplaceMe.m */,
+				5F9CAFFA6A3E06C51938EF3D5DE2F7A4 /* YACOBasicUIKit.h */,
+				8B306D79F65D49A5C8450490A665D123 /* Pod */,
+				D468C724E63008CADBEFB758DD9629A4 /* Support Files */,
+				32821C7410F4C702BF31D8301080F795 /* UIApplication */,
+				D6E60594D4963361CED54A5D4D7C2E0A /* UIColor */,
+				168E7D3658A9CE5C73CCA13838005CB8 /* UIDevice */,
+				7EC429584EF316A920F0095782AF2711 /* UIFont */,
+				E44BD80FEA3C6667BBDB5B32162BA243 /* UILabel */,
+				27F028AC76EC74E1B922E3F2AD829D4E /* UIView */,
 			);
 			name = YACOBasicUIKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		8C746B3154E04BE0DDC8C0D2558B5AB4 /* Support Files */ = {
+		7EC429584EF316A920F0095782AF2711 /* UIFont */ = {
 			isa = PBXGroup;
 			children = (
-				62A2465936700BD47698C463E540FEE2 /* YACOBasicUIKit.modulemap */,
-				E3C9EC210EB365D3365888DA5B06C09F /* YACOBasicUIKit.xcconfig */,
-				02926D489657BE7A76CC566158BB20DB /* YACOBasicUIKit-dummy.m */,
-				AD3F7842D6542478894B1B856D932885 /* YACOBasicUIKit-Info.plist */,
-				84A95C926D141C49394611694663196E /* YACOBasicUIKit-prefix.pch */,
-				43065364F45E374EF97C191F51C7E6E5 /* YACOBasicUIKit-umbrella.h */,
+				7281B57C153E9CCFF87C165A374A4D35 /* UIFont+YACOFont.h */,
+				C89B0E9A5C2CB018E160E2503A4D00A7 /* UIFont+YACOFont.m */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YACOBasicUIKit";
+			name = UIFont;
+			path = YACOBasicUIKit/Classes/UIFont;
 			sourceTree = "<group>";
 		};
-		8F4BA6D212CCBA22F9E46E2C52D86F9C /* AFNetworking */ = {
+		8B306D79F65D49A5C8450490A665D123 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				5F865F1984690D7E4D82CE8BC440C9C4 /* AFNetworking.h */,
-				51F985147C269360498F4D666C3586F1 /* NSURLSession */,
-				6B67C1C532D80DBF4D5966599EEE5BD1 /* Reachability */,
-				41AA6DD29CE4B7A87ED35630D132DEE7 /* Security */,
-				DEFF23A4262B7CC2B7412DB37FDD1D50 /* Serialization */,
-				758D3A0B9C8B83A952B0CA0717B9A068 /* Support Files */,
-				AA46B506BA633AF58C06347FAA379101 /* UIKit */,
+				5FEC5D129FE0D009B9FF35B3EFD7AA5B /* LICENSE */,
+				757768751838D98176C6CC463A837690 /* README.md */,
+				BE2DAEB864DC1F9A9EB584023D3CEDA7 /* YACOBasicUIKit.podspec */,
 			);
-			path = AFNetworking;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		914841216F0A41246DAC0C15EF50137A /* UIApplication */ = {
+		97C6AC15611E3DBE657D40CBA0F480E1 /* Security */ = {
 			isa = PBXGroup;
 			children = (
-				9B6560A60F55C4E1E2BB1139AC06CA44 /* UIApplication+YACOApplication.h */,
-				A4EC067C0C0C6B632C30D04DD39F5703 /* UIApplication+YACOApplication.m */,
+				4D6E0F31F4EC5AEF83995B7DCAE7D406 /* AFSecurityPolicy.h */,
+				D8FE69D0C4D3E6B72EBEDBCEE6E76EE0 /* AFSecurityPolicy.m */,
 			);
-			name = UIApplication;
+			name = Security;
 			sourceTree = "<group>";
 		};
-		AA46B506BA633AF58C06347FAA379101 /* UIKit */ = {
+		AB09D5EF35A648DA413976554D822BE2 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
-				7F5E70665CCE8779437E8363CE137E9F /* AFAutoPurgingImageCache.h */,
-				201D2B014FFDE009C7407F091A3BC2E4 /* AFAutoPurgingImageCache.m */,
-				8BF6F30931BD32517932E6D9B06669EC /* AFImageDownloader.h */,
-				0030CC492223F1416E41E4B378BC705C /* AFImageDownloader.m */,
-				79DCDB3BCF16CB2882EA92BE68EDBE94 /* AFNetworkActivityIndicatorManager.h */,
-				46868644BD8311D8AAF9EAF6A39A6040 /* AFNetworkActivityIndicatorManager.m */,
-				2D3EC832E5AC3A2384CC6999C9E5AE69 /* UIActivityIndicatorView+AFNetworking.h */,
-				C0ABF2603A38B045A51FA073761F6D74 /* UIActivityIndicatorView+AFNetworking.m */,
-				399361DB0160269CF9B87E7572F8E994 /* UIButton+AFNetworking.h */,
-				EB4E5A1CFF36B7CDABDDC3E16DE830F3 /* UIButton+AFNetworking.m */,
-				CFFA2659FC5AC408DC46BD90CE043F39 /* UIImage+AFNetworking.h */,
-				16955B1D156A796CE92B08F0BB192DFE /* UIImageView+AFNetworking.h */,
-				7CA824FACBBA5BE51DDD2ABB499950E6 /* UIImageView+AFNetworking.m */,
-				F4B2DD46E50F1D90AE09228E3374E83D /* UIKit+AFNetworking.h */,
-				8A24A1E9894FABC7EF1268BAF9BD4222 /* UIProgressView+AFNetworking.h */,
-				409E582AC9F6B99F408D8C80B931B43B /* UIProgressView+AFNetworking.m */,
-				F15545BBA641239D71E877B104995B89 /* UIRefreshControl+AFNetworking.h */,
-				3A3F341ADECD581C4D39B2AE3A9BE801 /* UIRefreshControl+AFNetworking.m */,
-				18A5EE880F62F741E54499123AA561E9 /* UIWebView+AFNetworking.h */,
-				5658450B390498551F491488B4C1BF0C /* UIWebView+AFNetworking.m */,
+				7C9E2F14214F8E5BE5C1ED8D03AA5DD8 /* AFCompatibilityMacros.h */,
+				1B1F881424B0DDCF48E145DD111EB06A /* AFHTTPSessionManager.h */,
+				641D6677C93E86CB0CB1F7FA42D019C6 /* AFHTTPSessionManager.m */,
+				0C495C5316C891FEEE18057F20265F17 /* AFURLSessionManager.h */,
+				261FDB3EC1833204C698177283CE84F9 /* AFURLSessionManager.m */,
 			);
-			name = UIKit;
+			name = NSURLSession;
 			sourceTree = "<group>";
 		};
 		B580EA7CF70EB35BD42257A17D958932 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8F4BA6D212CCBA22F9E46E2C52D86F9C /* AFNetworking */,
+				D743ED96EB500835A9A8B8F87FE3A53C /* AFNetworking */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		CE0347D2B28D528284362F25C8262629 /* Development Pods */ = {
+		B94D7768568A9992200DB461E8CF687F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7ED791FA756659BB990C51E3085FCFF2 /* YACOBasicUIKit */,
+				3F169D3C79D049AADC1832A7422DFFEE /* iOS */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		CE4D82B3FB1CC7FB4A66427142D14CAF /* Pods-YACOBasicUIKit_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				CD3E4D6C619719BC2BCFEE88356C9BD5 /* Pods-YACOBasicUIKit_Tests.modulemap */,
-				B19CF888E2CE9989D78BE9681DF77906 /* Pods-YACOBasicUIKit_Tests-acknowledgements.markdown */,
-				A44C1E9C601EFBE9556C91550019677B /* Pods-YACOBasicUIKit_Tests-acknowledgements.plist */,
-				46D1C1D8FCD2C2938CC446F2EB1A62D0 /* Pods-YACOBasicUIKit_Tests-dummy.m */,
-				3DA25FB7DE6C4022B42C7B18C706E6D7 /* Pods-YACOBasicUIKit_Tests-Info.plist */,
-				4086ED89F5963C9850B9B53522D8DDDD /* Pods-YACOBasicUIKit_Tests-umbrella.h */,
-				71DE3717F4A7F40FF57037CB573524AC /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */,
-				5F9ADF5537BD1F4616C5E2C52687FFA9 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-YACOBasicUIKit_Tests";
-			path = "Target Support Files/Pods-YACOBasicUIKit_Tests";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				CE0347D2B28D528284362F25C8262629 /* Development Pods */,
-				4C38082DADD8203A4D290044D37BE4C0 /* Frameworks */,
+				F2C69FA5D8C4956CAD239B0E2122B91D /* Development Pods */,
+				B94D7768568A9992200DB461E8CF687F /* Frameworks */,
 				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
-				F7C4EE8942FC796660C51A8D268C8BFD /* Products */,
+				1DD74B736E0D21AD82D37459BA6B8110 /* Products */,
 				044CED9B1C09083326DFEEE0C3275A25 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D54CCEC5444E14A3525F997A3A8BAF03 /* UIDevice */ = {
+		D468C724E63008CADBEFB758DD9629A4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9CACB4B9F712056CE317CCDF90E16A04 /* UIDevice+YACODevice.h */,
-				71F6D3DC113B9B5F9B505B06B1D22A7D /* UIDevice+YACODevice.m */,
+				2FC918F80D5277FA688A0C33B4167252 /* YACOBasicUIKit.modulemap */,
+				62BDB2D1EEC2BFCC7F61D23C746A5F98 /* YACOBasicUIKit-dummy.m */,
+				F67257C7050EF64B0B3327692334B785 /* YACOBasicUIKit-Info.plist */,
+				6BA0E235ECAD5F5C2CED95AFB36C6216 /* YACOBasicUIKit-prefix.pch */,
+				8308ADD22701AC0A37A075492F85AFE9 /* YACOBasicUIKit-umbrella.h */,
+				76421835FFBDD7305FED9097FD03588E /* YACOBasicUIKit.debug.xcconfig */,
+				03B0274AE1BE0334FCD17EAD232118C1 /* YACOBasicUIKit.release.xcconfig */,
 			);
-			name = UIDevice;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YACOBasicUIKit";
 			sourceTree = "<group>";
 		};
-		DE491CA546E8BD3121D103EA6CDF1BE5 /* UIColor */ = {
+		D6E60594D4963361CED54A5D4D7C2E0A /* UIColor */ = {
 			isa = PBXGroup;
 			children = (
-				AB17CCC99CBB5A69EFB1F21535915935 /* UIColor+YACOColor.h */,
-				5B18B5C294980B4220952C7B03E0DFC7 /* UIColor+YACOColor.m */,
+				C07161903D4C9CE8A5DB621C8FF41C44 /* UIColor+YACOColor.h */,
+				81AC41E218D132FDCF4ECCAE3CB8E6CE /* UIColor+YACOColor.m */,
 			);
 			name = UIColor;
+			path = YACOBasicUIKit/Classes/UIColor;
 			sourceTree = "<group>";
 		};
-		DEFF23A4262B7CC2B7412DB37FDD1D50 /* Serialization */ = {
+		D743ED96EB500835A9A8B8F87FE3A53C /* AFNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				B9545A1A302F25073E89E81566001171 /* AFURLRequestSerialization.h */,
-				05D54FD36EF6CCAD55ABE35770B95F36 /* AFURLRequestSerialization.m */,
-				D10A6F04C10D110A25EEF951B4090C75 /* AFURLResponseSerialization.h */,
-				1511215FF17F3FCC3AB8072C1933A4BE /* AFURLResponseSerialization.m */,
+				D5C20FF8E4909A9876DC2FE445212270 /* AFNetworking.h */,
+				AB09D5EF35A648DA413976554D822BE2 /* NSURLSession */,
+				75A6907AF3475E8B87F3FF6D9A14C41A /* Reachability */,
+				97C6AC15611E3DBE657D40CBA0F480E1 /* Security */,
+				75ABCD4A8A29FBE8F266DC5000A5EC1B /* Serialization */,
+				5E7F5B7AF33675869C9653472B0198B8 /* Support Files */,
+				38E701F252488D714A137AD77A33436C /* UIKit */,
 			);
-			name = Serialization;
+			name = AFNetworking;
+			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		F7C4EE8942FC796660C51A8D268C8BFD /* Products */ = {
+		E44BD80FEA3C6667BBDB5B32162BA243 /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				630DC21582D589FB4BDC06CF09095611 /* AFNetworking.framework */,
-				8D2DB15FF172D2891C0D65DBED937586 /* Pods_YACOBasicUIKit_Example.framework */,
-				FB9EDA6FB604661E712B226FA103CAED /* Pods_YACOBasicUIKit_Tests.framework */,
-				875C3E7A2D8E808E040A9AC6651AF9E9 /* YACOBasicUIKit.framework */,
+				2DEF72F6C00C908EB48DF9DEC1038B4C /* UILabel+YACOLabel.h */,
+				1024C6153326F10D8390D84B6AF84B57 /* UILabel+YACOLabel.m */,
+				F8FBA92FED28944807E90C32660B4141 /* YACOAutoScrollLabel.h */,
+				894B48A0FB20FADA18585AE9FC97B17C /* YACOAutoScrollLabel.m */,
 			);
-			name = Products;
+			name = UILabel;
+			path = YACOBasicUIKit/Classes/UILabel;
+			sourceTree = "<group>";
+		};
+		F2C69FA5D8C4956CAD239B0E2122B91D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7809CF3EF0DC7E311E08DB1E778A483D /* YACOBasicUIKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		154C8CD7C0DAE791EB197BD31092F21D /* Headers */ = {
+		48090CEA0C2DF7F64FD9C07F37027E5A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA28F8042565A9FB3CFFAD1A20B7299 /* Pods-YACOBasicUIKit_Tests-umbrella.h in Headers */,
+				5C288F60E02E29F250ABF7FD74E2D93A /* Pods-YACOBasicUIKit_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4901C6645E0B9ADFA4909EF6422A1AAF /* Headers */ = {
+		4B1A66814670D0CEFA2EF15D8A0AC3FC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD518C585B21A4098749C726062EBC19 /* Pods-YACOBasicUIKit_Example-umbrella.h in Headers */,
+				D685C5D93860827612D4E587BC481842 /* UIApplication+YACOApplication.h in Headers */,
+				8F06E3EBE5A719D35F88F07EE3BB939D /* UIColor+YACOColor.h in Headers */,
+				A5D9759DC98F97B298B9DCDFD4F41EE0 /* UIDevice+YACODevice.h in Headers */,
+				502DD91A104888ECB28A7AC94CCE43AD /* UIFont+YACOFont.h in Headers */,
+				7F58B7F5FF946040BAF6112AF70A913D /* UILabel+YACOLabel.h in Headers */,
+				A56BB7407F4572C2BB1FD16BFDDB9F7B /* UIView+YACOFrame.h in Headers */,
+				4CA29EFA9455363E244F69DC484D0FF3 /* YACOAutoScrollLabel.h in Headers */,
+				8E795B7AC5897CB58D8BC17EA6C32750 /* YACOBasicUIKit-umbrella.h in Headers */,
+				C6F0BD0D416BD88D49ED892AF7CA1100 /* YACOBasicUIKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8B481F7D9424640B11DFD07C65E61B86 /* Headers */ = {
+		5C9FDAB33A8B04E0E571EAA3EDF444A2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				62E654F7180B592841BD378B6A087A1C /* AFAutoPurgingImageCache.h in Headers */,
-				076C00AFD23F6DF56093E24AC4E1F72A /* AFCompatibilityMacros.h in Headers */,
-				9A5CA25A63AF0B4164AE2959E548015B /* AFHTTPSessionManager.h in Headers */,
-				077E63D68E41DAF6AB92F95C562258A7 /* AFImageDownloader.h in Headers */,
-				E6937F73D5B04BE67153D3C3AACD8922 /* AFNetworkActivityIndicatorManager.h in Headers */,
-				8B2874F670DAE042FD93DFB056E59C52 /* AFNetworking-umbrella.h in Headers */,
-				9B4D9E80D31B0B9EBE56273D5298CBE7 /* AFNetworking.h in Headers */,
-				B0FE1AC303CE8CB9F7C029AD1D3D1E12 /* AFNetworkReachabilityManager.h in Headers */,
-				891AAE82F26D8020470FC40F20A46C6C /* AFSecurityPolicy.h in Headers */,
-				F06A1D57921458C44558DDC1E36F3776 /* AFURLRequestSerialization.h in Headers */,
-				19DE2D2B6053CF645CE5C574A5B1C616 /* AFURLResponseSerialization.h in Headers */,
-				D291925F0CAEBC063B12582E0CAA4132 /* AFURLSessionManager.h in Headers */,
-				1A053FC07DB072A8E9E210F96108F523 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
-				E7805B558ACD291DAE469478DA1D29E2 /* UIButton+AFNetworking.h in Headers */,
-				33029FDB5016A2F7A44E187BB61840F8 /* UIImage+AFNetworking.h in Headers */,
-				567B4BF4309674A8523DF1E20D4671F2 /* UIImageView+AFNetworking.h in Headers */,
-				63F74DC48DB6AC67A18783389FF8F45F /* UIKit+AFNetworking.h in Headers */,
-				B8710DD9E63184D147DD79CC87ACB4CD /* UIProgressView+AFNetworking.h in Headers */,
-				FB3E46B9FF369995DA726ADEE05D8763 /* UIRefreshControl+AFNetworking.h in Headers */,
-				7DCFC748C7F8BBBC410C0C5157A1B9F5 /* UIWebView+AFNetworking.h in Headers */,
+				2413A0E22E9A39C9FF8B32CCF0CB1DC6 /* Pods-YACOBasicUIKit_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		961C67EFCF5F5730D3EA59F11CE3491A /* Headers */ = {
+		F5F3954755BD8248E767F716DA24E14F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54FDDA264E9DA476710F073BA0B6A0D8 /* UIApplication+YACOApplication.h in Headers */,
-				8164874A9AFEF2968A1E6510219E3EC5 /* UIColor+YACOColor.h in Headers */,
-				482A697C40B8E8AA4A8FF00072FA6139 /* UIDevice+YACODevice.h in Headers */,
-				BACCF398BE43FB55BE337AC22D00B941 /* UIFont+YACOFont.h in Headers */,
-				7A6493E4D716CBCB792C75EE057E11CC /* UILabel+YACOLabel.h in Headers */,
-				307F9090246D7DE300D8C87B /* YACOBasicUIKit.h in Headers */,
-				2E118990881DC09ED3899EB669B8B34A /* UIView+YACOFrame.h in Headers */,
-				61A55D0D38203DFD37105808CBAF4F91 /* YACOAutoScrollLabel.h in Headers */,
-				0C9275CE0965D37E0090E6BE86E89EB3 /* YACOBasicUIKit-umbrella.h in Headers */,
+				870044029B3BA449A0932AAE3A495DE9 /* AFAutoPurgingImageCache.h in Headers */,
+				F407B4E0B40A8AA4CA7443563F105E40 /* AFCompatibilityMacros.h in Headers */,
+				169B3FC2BD33B8FBC2D4C35A1C1DC6BF /* AFHTTPSessionManager.h in Headers */,
+				E261B82A0EEFE0EA897EA1A36C69C1CE /* AFImageDownloader.h in Headers */,
+				2AE1F29F045D02727E815DBBAC8C7B4F /* AFNetworkActivityIndicatorManager.h in Headers */,
+				5036C1D6D87D4DA731C972A410C17ABC /* AFNetworking-umbrella.h in Headers */,
+				7F372985CE80B69B5524CC3277E1C1AF /* AFNetworking.h in Headers */,
+				A9E429ECAF059D9D471F3AE5C1BAC2B0 /* AFNetworkReachabilityManager.h in Headers */,
+				3E112DA53DD725C9A3185A54EB342EAF /* AFSecurityPolicy.h in Headers */,
+				17D6A066C5F987FEFF8B89D7EFDFD375 /* AFURLRequestSerialization.h in Headers */,
+				47FF1D17418AB1144FDE0E46427F4877 /* AFURLResponseSerialization.h in Headers */,
+				D59E2A517A48D101120EB57F90F140A5 /* AFURLSessionManager.h in Headers */,
+				B5AD0B8F0F9304975A01978B2908B62F /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				AEA4CF8EE7E08C13B4A71A634F9F3B5B /* UIButton+AFNetworking.h in Headers */,
+				09E2F57C3C2B897ACC8AF5C49F1E9592 /* UIImage+AFNetworking.h in Headers */,
+				6F6C4414DE96E08267712DA4C17C3CBB /* UIImageView+AFNetworking.h in Headers */,
+				9B41316D2DE09092FA0143B33A74B769 /* UIKit+AFNetworking.h in Headers */,
+				3A186F3A7711FAAB8C60562D63FF0D9F /* UIProgressView+AFNetworking.h in Headers */,
+				09E785555B549DE5974C744DB8324B91 /* UIRefreshControl+AFNetworking.h in Headers */,
+				F4FED6C37367BC46B92BB3FE18D233B8 /* UIWebView+AFNetworking.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		55004F29873E0F94127DAC48AD56A8FB /* Pods-YACOBasicUIKit_Tests */ = {
+		0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C937FF5BD18B0571A505D83DFC10248A /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Tests" */;
+			buildConfigurationList = 41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				154C8CD7C0DAE791EB197BD31092F21D /* Headers */,
-				5305F392CC0B8F8BCA29BDA007EF7FBC /* Sources */,
-				231A9882773A21FF96B69F646E71AD35 /* Frameworks */,
-				E652672614CA79EA7996A11D47A9C520 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6471D71C7225701C488304F9C026CAAE /* PBXTargetDependency */,
-			);
-			name = "Pods-YACOBasicUIKit_Tests";
-			productName = "Pods-YACOBasicUIKit_Tests";
-			productReference = FB9EDA6FB604661E712B226FA103CAED /* Pods_YACOBasicUIKit_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		AB2E47984414F9DC4CC386C56D67CFEB /* Pods-YACOBasicUIKit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4C55CC324F073D2F2627C8EADA8AA8B6 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Example" */;
-			buildPhases = (
-				4901C6645E0B9ADFA4909EF6422A1AAF /* Headers */,
-				2DF2018B0E8293A06AD45D570B8FEAA4 /* Sources */,
-				07D46A06CF71C5224E5096B4EC7ACE0D /* Frameworks */,
-				61EEE2D1FBB682BBE30375533744F493 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				D524A7DA810777C2943800DFFBA9D177 /* PBXTargetDependency */,
-				1E47B3BDEA14D164B655979AF692C2EB /* PBXTargetDependency */,
-			);
-			name = "Pods-YACOBasicUIKit_Example";
-			productName = "Pods-YACOBasicUIKit_Example";
-			productReference = 8D2DB15FF172D2891C0D65DBED937586 /* Pods_YACOBasicUIKit_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */;
-			buildPhases = (
-				8B481F7D9424640B11DFD07C65E61B86 /* Headers */,
-				D6735FC939CD439E865C33F1416D8D12 /* Sources */,
-				FC8435A689BD825A0D545C2D74D0F932 /* Frameworks */,
-				FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */,
+				F5F3954755BD8248E767F716DA24E14F /* Headers */,
+				E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */,
+				99296CB2AAE82C49C9B4A74A8F4D8341 /* Frameworks */,
+				51B338009A28492821105E82A3A3C869 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -656,26 +627,65 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 630DC21582D589FB4BDC06CF09095611 /* AFNetworking.framework */;
+			productReference = A4FA15D44DF6BAC7550EDEED10862AA3 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DA8E7BAF7AF54884FD864FAC9EF41C71 /* YACOBasicUIKit */ = {
+		01668C5EDF9FCC3ED01DF5EF497A731F /* Pods-YACOBasicUIKit_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2E6AD5E43E9689453D893D8ED4D8FB6F /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */;
+			buildConfigurationList = 04722AE83383FA56982E303C374AAC37 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Tests" */;
 			buildPhases = (
-				961C67EFCF5F5730D3EA59F11CE3491A /* Headers */,
-				AE62137C1517AABEA5EA7F2403F7DFFD /* Sources */,
-				7BC73BF2E65DA3B1EE378986D1AF647F /* Frameworks */,
-				F7F59B84A6F9E3F06F83E35B8515D1E5 /* Resources */,
+				48090CEA0C2DF7F64FD9C07F37027E5A /* Headers */,
+				174993CF72839FED136A924AC3CDF34B /* Sources */,
+				3FA4DF9FC9F62C99E9EF82756D978B25 /* Frameworks */,
+				C69E96E6DFDC265746DAB011022F0069 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CE940327F64E99DCFB157E71C018765F /* PBXTargetDependency */,
+				1CA2F12B4A73B32C8F73FBC2140C835C /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOBasicUIKit_Tests";
+			productName = "Pods-YACOBasicUIKit_Tests";
+			productReference = ECD92EB57F07333754E1644094E476C0 /* Pods_YACOBasicUIKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6AB155158FE71ED0700F23E7706CDB2A /* Pods-YACOBasicUIKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C461F727B39A67B20188D4A24385F9 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Example" */;
+			buildPhases = (
+				5C9FDAB33A8B04E0E571EAA3EDF444A2 /* Headers */,
+				93E2908BD895D1117B963EEF8D724054 /* Sources */,
+				4D2F1CB1DE0CB2EB8844545534E947D8 /* Frameworks */,
+				5F7D261AEEC941001B1A7D78787052BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE875C8E6D1F58EF3AC6DC3D0402AD8C /* PBXTargetDependency */,
+				3A7EDE940A138450BDB1AE8751727D56 /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOBasicUIKit_Example";
+			productName = "Pods-YACOBasicUIKit_Example";
+			productReference = 9C1860AFD5336FB5F51C3404B2AAFA2D /* Pods_YACOBasicUIKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E61932D00010CA6F845ADBD082791F34 /* YACOBasicUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7DAFE1A26248E54E2790FAC3FB6E935 /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */;
+			buildPhases = (
+				4B1A66814670D0CEFA2EF15D8A0AC3FC /* Headers */,
+				3E3A0ED58428E8784D94BEC2FB9FA6C3 /* Sources */,
+				C45B4C67730F41611C3AF367234AEC9B /* Frameworks */,
+				2DBA1420A7268FB39CF04418A7EEC5E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F876484299AE49D32FDDE93E70E1A555 /* PBXTargetDependency */,
 			);
 			name = YACOBasicUIKit;
 			productName = YACOBasicUIKit;
-			productReference = 875C3E7A2D8E808E040A9AC6651AF9E9 /* YACOBasicUIKit.framework */;
+			productReference = 69F5F9829DFAB1493C70FFC28E792C6F /* YACOBasicUIKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -684,53 +694,53 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = F7C4EE8942FC796660C51A8D268C8BFD /* Products */;
+			productRefGroup = 1DD74B736E0D21AD82D37459BA6B8110 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */,
-				AB2E47984414F9DC4CC386C56D67CFEB /* Pods-YACOBasicUIKit_Example */,
-				55004F29873E0F94127DAC48AD56A8FB /* Pods-YACOBasicUIKit_Tests */,
-				DA8E7BAF7AF54884FD864FAC9EF41C71 /* YACOBasicUIKit */,
+				0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */,
+				6AB155158FE71ED0700F23E7706CDB2A /* Pods-YACOBasicUIKit_Example */,
+				01668C5EDF9FCC3ED01DF5EF497A731F /* Pods-YACOBasicUIKit_Tests */,
+				E61932D00010CA6F845ADBD082791F34 /* YACOBasicUIKit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		61EEE2D1FBB682BBE30375533744F493 /* Resources */ = {
+		2DBA1420A7268FB39CF04418A7EEC5E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E652672614CA79EA7996A11D47A9C520 /* Resources */ = {
+		51B338009A28492821105E82A3A3C869 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7F59B84A6F9E3F06F83E35B8515D1E5 /* Resources */ = {
+		5F7D261AEEC941001B1A7D78787052BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FBA9ADA204A8149A6C3E62ED8B29438B /* Resources */ = {
+		C69E96E6DFDC265746DAB011022F0069 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -740,91 +750,156 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DF2018B0E8293A06AD45D570B8FEAA4 /* Sources */ = {
+		174993CF72839FED136A924AC3CDF34B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A22615288633E106894F98D21371A6F8 /* Pods-YACOBasicUIKit_Example-dummy.m in Sources */,
+				DE8B9DD250C7C0D132BA20EFFC10B35C /* Pods-YACOBasicUIKit_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5305F392CC0B8F8BCA29BDA007EF7FBC /* Sources */ = {
+		3E3A0ED58428E8784D94BEC2FB9FA6C3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA9C0DD6526D8677821E7D9FFCE7ACDD /* Pods-YACOBasicUIKit_Tests-dummy.m in Sources */,
+				2B54129404C6F402750AAC137D86678E /* ReplaceMe.m in Sources */,
+				E547DCB4CC039997A4D92078688BC93C /* UIApplication+YACOApplication.m in Sources */,
+				7755C4325476B9FFC97DB9C695666988 /* UIColor+YACOColor.m in Sources */,
+				D3F7724459759596D53D4265DDAD00D1 /* UIDevice+YACODevice.m in Sources */,
+				A0B664F795890F48C4B1A2A47572E45F /* UIFont+YACOFont.m in Sources */,
+				011D5B1B79236938973CB4F220962033 /* UILabel+YACOLabel.m in Sources */,
+				4636E7EFB0B77C595EBF903E113682C0 /* UIView+YACOFrame.m in Sources */,
+				E9D4BEFAC031DF8ADC763341D5618620 /* YACOAutoScrollLabel.m in Sources */,
+				BAD7EB0EFC521C5B4B415FEE6800422B /* YACOBasicUIKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AE62137C1517AABEA5EA7F2403F7DFFD /* Sources */ = {
+		93E2908BD895D1117B963EEF8D724054 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D81B3BC54516AA8E107E1EE11823E17C /* UIApplication+YACOApplication.m in Sources */,
-				8105DFF723256E7FF2B5A44ECF9AD361 /* UIColor+YACOColor.m in Sources */,
-				E10AB87087119790DB9F8A1A30546584 /* UIDevice+YACODevice.m in Sources */,
-				C3D09A80FAD47A1AF0F835401DEF5C9F /* UIFont+YACOFont.m in Sources */,
-				A4E8E29CD74E785FE0B724499EBE3964 /* UILabel+YACOLabel.m in Sources */,
-				D3FAFFA263D1EA2CBC71FB4F0E30E1D5 /* UIView+YACOFrame.m in Sources */,
-				0DFE75C1EC83501BEC29E0A3281FC012 /* YACOAutoScrollLabel.m in Sources */,
-				C67D4FA50629A74BAAAB1F500F035D4F /* YACOBasicUIKit-dummy.m in Sources */,
+				81B3AF5D0718C200AF8F089A1A92B2BD /* Pods-YACOBasicUIKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6735FC939CD439E865C33F1416D8D12 /* Sources */ = {
+		E16D45883ACDDBE532CC4EABBA7C6196 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C169039395DA323C675710954E884A /* AFAutoPurgingImageCache.m in Sources */,
-				775FD4041C972482A0AC5A31665EA870 /* AFHTTPSessionManager.m in Sources */,
-				66E037C310853F72B9AB5C84FC410C32 /* AFImageDownloader.m in Sources */,
-				3D26FEB0D3C003CEF1FFAB3567A87747 /* AFNetworkActivityIndicatorManager.m in Sources */,
-				C65745E59B3D0A1C9A417B77AB884EE5 /* AFNetworking-dummy.m in Sources */,
-				EF377BD250E23E1145A17E69C5A31F5F /* AFNetworkReachabilityManager.m in Sources */,
-				87067D260F4DB26CF268F5AF886981D7 /* AFSecurityPolicy.m in Sources */,
-				F84D5B6C81712530B75013FFA8FA3A3B /* AFURLRequestSerialization.m in Sources */,
-				459B7981366B750E67C9C930A9D04402 /* AFURLResponseSerialization.m in Sources */,
-				8AD5DCF40D6F1D970FAE3C28C7606317 /* AFURLSessionManager.m in Sources */,
-				9CCE08031C818A1904C5E4714830CD04 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				6A7096283C7036C4B97030657219BFEF /* UIButton+AFNetworking.m in Sources */,
-				A5B3CF0C5588B8345E6AD6DAE3851F65 /* UIImageView+AFNetworking.m in Sources */,
-				3E6CBE5A96B3532700E9524AAB3C5BFB /* UIProgressView+AFNetworking.m in Sources */,
-				8550C1877103EDD75172BAA7A9718236 /* UIRefreshControl+AFNetworking.m in Sources */,
-				CEC18DC7883A5DB076FCF6F4C164F3CD /* UIWebView+AFNetworking.m in Sources */,
+				3033C2DE9CB2085ECBB95717CFB6425A /* AFAutoPurgingImageCache.m in Sources */,
+				77876997CA63145CC72A2D6FB5758513 /* AFHTTPSessionManager.m in Sources */,
+				0D40EE6956924384435BBBD4B718DEC8 /* AFImageDownloader.m in Sources */,
+				6E4C66ABA27A0F4EFDAA3E8B21A9384F /* AFNetworkActivityIndicatorManager.m in Sources */,
+				3BDC8FBDB7922AA1ABA2C90DBA2DBB35 /* AFNetworking-dummy.m in Sources */,
+				95DAE5AD46A86973A77907D38716F694 /* AFNetworkReachabilityManager.m in Sources */,
+				769B6260247C5624A11411541C0AA4E2 /* AFSecurityPolicy.m in Sources */,
+				E17973BC9CEAE4ED0A7492450F95ACEF /* AFURLRequestSerialization.m in Sources */,
+				A5D86CC71480778ECD0EE81138D48C91 /* AFURLResponseSerialization.m in Sources */,
+				856B571FA3AE9D65E81FACB19E3557F4 /* AFURLSessionManager.m in Sources */,
+				8F96E82F250EE718FA3F08AC9AB58423 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				34A7C5747B4C0825465453E196E57FAA /* UIButton+AFNetworking.m in Sources */,
+				AECB9FD1C271F734476CBF6E84BBFC51 /* UIImageView+AFNetworking.m in Sources */,
+				98114570DFFDF5BD81B7724B4810501D /* UIProgressView+AFNetworking.m in Sources */,
+				D29F2AD07AF58334781F008905C30C35 /* UIRefreshControl+AFNetworking.m in Sources */,
+				DC2186197E507C0C73DFB0600D54867A /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1E47B3BDEA14D164B655979AF692C2EB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YACOBasicUIKit;
-			target = DA8E7BAF7AF54884FD864FAC9EF41C71 /* YACOBasicUIKit */;
-			targetProxy = C918E287C59A6500BAA3914387C91EE7 /* PBXContainerItemProxy */;
-		};
-		6471D71C7225701C488304F9C026CAAE /* PBXTargetDependency */ = {
+		1CA2F12B4A73B32C8F73FBC2140C835C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-YACOBasicUIKit_Example";
-			target = AB2E47984414F9DC4CC386C56D67CFEB /* Pods-YACOBasicUIKit_Example */;
-			targetProxy = 0117978EC7CB127827DF82ED03BD135C /* PBXContainerItemProxy */;
+			target = 6AB155158FE71ED0700F23E7706CDB2A /* Pods-YACOBasicUIKit_Example */;
+			targetProxy = 218C984B0C2B51D9CADD35BCA78E0B58 /* PBXContainerItemProxy */;
 		};
-		CE940327F64E99DCFB157E71C018765F /* PBXTargetDependency */ = {
+		3A7EDE940A138450BDB1AE8751727D56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YACOBasicUIKit;
+			target = E61932D00010CA6F845ADBD082791F34 /* YACOBasicUIKit */;
+			targetProxy = D9CF1523EDE1857567184904566DC5ED /* PBXContainerItemProxy */;
+		};
+		AE875C8E6D1F58EF3AC6DC3D0402AD8C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
-			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
-			targetProxy = 2EF1F314AEA2F3E2A03A76967DB6E7F4 /* PBXContainerItemProxy */;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = 66FE47E697EE92F24BC6AC0155DDA0F4 /* PBXContainerItemProxy */;
 		};
-		D524A7DA810777C2943800DFFBA9D177 /* PBXTargetDependency */ = {
+		F876484299AE49D32FDDE93E70E1A555 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
-			target = BF160BF4E9F6EE312A9C8967B5A3C071 /* AFNetworking */;
-			targetProxy = 864542AFB8D83BA4E32810E00FE588EB /* PBXContainerItemProxy */;
+			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
+			targetProxy = E4EA95AE0339E8489837015CE36B78F3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		0907C798CB06EA08D3CF8910E08275BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8238151E3F0FB5883C4334C9869BF23 /* AFNetworking.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
+				PRODUCT_MODULE_NAME = AFNetworking;
+				PRODUCT_NAME = AFNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		349FCE13316073AFC2ED8AAAC89EDD96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76421835FFBDD7305FED9097FD03588E /* YACOBasicUIKit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
+				PRODUCT_MODULE_NAME = YACOBasicUIKit;
+				PRODUCT_NAME = YACOBasicUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -877,109 +952,14 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		12DE98FCFB8313D7F87025CEC7A1282B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 71DE3717F4A7F40FF57037CB573524AC /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2AA0390DCAEC864B72D7B23BE4353556 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C9EC210EB365D3365888DA5B06C09F /* YACOBasicUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
-				PRODUCT_MODULE_NAME = YACOBasicUIKit;
-				PRODUCT_NAME = YACOBasicUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3B22AFE657F51E681373E12D06AEE348 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AFNetworking/AFNetworking-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AFNetworking/AFNetworking-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AFNetworking/AFNetworking.modulemap";
-				PRODUCT_MODULE_NAME = AFNetworking;
-				PRODUCT_NAME = AFNetworking;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1038,14 +1018,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		8AA60818490994CEC04D3BF48301ECB8 /* Release */ = {
+		82D5E152DE46BF2F1731C9B22B283693 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CD8A2A381EC8DE5E27A2682E27BA532D /* Pods-YACOBasicUIKit_Example.release.xcconfig */;
+			baseConfigurationReference = 1A221C7A88782EB173FD4B9039528AB7 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1071,46 +1051,14 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		BEE26A6D06151A4AD0F4AED9183B014A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E3C9EC210EB365D3365888DA5B06C09F /* YACOBasicUIKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
-				PRODUCT_MODULE_NAME = YACOBasicUIKit;
-				PRODUCT_NAME = YACOBasicUIKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BFA90D4902131B826C5005EDD6C59762 /* Release */ = {
+		97FD858C3FE8AF0A24876128A47BD9FF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F9ADF5537BD1F4616C5E2C52687FFA9 /* Pods-YACOBasicUIKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 9E004AE69A38EC42587C2702EE067F7C /* Pods-YACOBasicUIKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1142,9 +1090,9 @@
 			};
 			name = Release;
 		};
-		C843DA439FD2CF6B33DF4F0FB1F06C81 /* Release */ = {
+		A47EDB6152BAC15F4BDAB4F58B42C0DC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 170989DA4F46117FDD3C519427D4EB80 /* AFNetworking.xcconfig */;
+			baseConfigurationReference = C6E51BEC15682041779495D526221376 /* AFNetworking.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1168,15 +1116,14 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		E5D9FF5533E037C6571A492C0438AEF0 /* Debug */ = {
+		B9A36BDC178789BD6745705D9F9B3F3F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02EC04F11EB4A34FC39DFABC347061C9 /* Pods-YACOBasicUIKit_Example.debug.xcconfig */;
+			baseConfigurationReference = DAE4C2797AE740780EC78F51F15AC7C1 /* Pods-YACOBasicUIKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1202,6 +1149,73 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB59D6D81DB8D861F236A9C38F748495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03B0274AE1BE0334FCD17EAD232118C1 /* YACOBasicUIKit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/YACOBasicUIKit/YACOBasicUIKit.modulemap";
+				PRODUCT_MODULE_NAME = YACOBasicUIKit;
+				PRODUCT_NAME = YACOBasicUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CBAB378EE1B36E1597486F032F8F4284 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E59D3CB0DAC1C8B513F1BAA95A1E478 /* Pods-YACOBasicUIKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicUIKit_Tests/Pods-YACOBasicUIKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -1210,20 +1224,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F61CC930D216358080AF9DD07D1FB3D /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
+		04722AE83383FA56982E303C374AAC37 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B22AFE657F51E681373E12D06AEE348 /* Debug */,
-				C843DA439FD2CF6B33DF4F0FB1F06C81 /* Release */,
+				CBAB378EE1B36E1597486F032F8F4284 /* Debug */,
+				97FD858C3FE8AF0A24876128A47BD9FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2E6AD5E43E9689453D893D8ED4D8FB6F /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */ = {
+		41D6DFBE997E173748D09E9A11D890A3 /* Build configuration list for PBXNativeTarget "AFNetworking" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEE26A6D06151A4AD0F4AED9183B014A /* Debug */,
-				2AA0390DCAEC864B72D7B23BE4353556 /* Release */,
+				A47EDB6152BAC15F4BDAB4F58B42C0DC /* Debug */,
+				0907C798CB06EA08D3CF8910E08275BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1231,26 +1245,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4C55CC324F073D2F2627C8EADA8AA8B6 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Example" */ = {
+		A7DAFE1A26248E54E2790FAC3FB6E935 /* Build configuration list for PBXNativeTarget "YACOBasicUIKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D9FF5533E037C6571A492C0438AEF0 /* Debug */,
-				8AA60818490994CEC04D3BF48301ECB8 /* Release */,
+				349FCE13316073AFC2ED8AAAC89EDD96 /* Debug */,
+				BB59D6D81DB8D861F236A9C38F748495 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C937FF5BD18B0571A505D83DFC10248A /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Tests" */ = {
+		E0C461F727B39A67B20188D4A24385F9 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicUIKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				12DE98FCFB8313D7F87025CEC7A1282B /* Debug */,
-				BFA90D4902131B826C5005EDD6C59762 /* Release */,
+				82D5E152DE46BF2F1731C9B22B283693 /* Debug */,
+				B9A36BDC178789BD6745705D9F9B3F3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,6 +1,6 @@
 {
   "name": "YACOBasicUIKit",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "summary": "YACOBasicUIKit.",
   "description": "YACOBasicUIKit.",
   "homepage": "https://github.com/LYFGH/YACOBasicUIKit.git",
@@ -13,47 +13,16 @@
   },
   "source": {
     "git": "https://github.com/LYFGH/YACOBasicUIKit.git",
-    "tag": "0.1.1"
+    "tag": "0.1.5"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "YACOBasicUIKit/Classes/YACOBasicUIKit.h",
-  "subspecs": [
-    {
-      "name": "UIApplication",
-      "source_files": "YACOBasicUIKit/Classes/UIApplication/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UIApplication/**/*.h"
-    },
-    {
-      "name": "UIColor",
-      "source_files": "YACOBasicUIKit/Classes/UIColor/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UIColor/**/*.h"
-    },
-    {
-      "name": "UIDevice",
-      "source_files": "YACOBasicUIKit/Classes/UIDevice/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UIDevice/**/*.h",
-      "dependencies": {
-        "AFNetworking": [
+  "source_files": "YACOBasicUIKit/Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "AFNetworking": [
 
-        ]
-      }
-    },
-    {
-      "name": "UIFont",
-      "source_files": "YACOBasicUIKit/Classes/UIFont/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UIFont/**/*.h"
-    },
-    {
-      "name": "UILabel",
-      "source_files": "YACOBasicUIKit/Classes/UILabel/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UILabel/**/*.h"
-    },
-    {
-      "name": "UIView",
-      "source_files": "YACOBasicUIKit/Classes/UIView/**/*.{h,m}",
-      "public_header_files": "YACOBasicUIKit/Classes/UIView/**/*.h"
-    }
-  ]
+    ]
+  }
 }
